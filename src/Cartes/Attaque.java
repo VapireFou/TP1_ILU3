@@ -2,7 +2,8 @@ package Cartes;
 
 public class Attaque extends Bataille {
 
-	public Attaque() {
+	protected Attaque(Type type) {
+		super(type);
 		// TODO Auto-generated constructor stub
 	}
 
