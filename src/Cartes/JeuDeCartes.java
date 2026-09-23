@@ -53,7 +53,10 @@ public class JeuDeCartes {
 		StringBuilder texte = new StringBuilder();
 		
 		for (int i = 0; i < typesDeCartes.length;i++) {
+			texte.append(typesDeCartes[i].getNbExemplaires());
+			texte.append(" ");
 			texte.append(typesDeCartes[i].getCarte().toString());
+			texte.append("\n");
 		}
 		
 		return texte.toString();
